@@ -4,9 +4,9 @@
 
 # Site
 title: MegumiKato's Blog
-subtitle: 'ACGN杂谈-1'
-description: 'ACGN杂谈-1'
-keywords:
+subtitle: ''
+description: '地理信息科学-WebGIS'
+keywords: 'ACGN'
 author: MegumiKato
 language: zh-CN
 timezone: Asia/Shanghai
@@ -92,7 +92,6 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-  - r
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/

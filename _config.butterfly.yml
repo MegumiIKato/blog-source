@@ -59,7 +59,7 @@ avatar:
   effect: false
 
 # Disable all banner images
-disable_top_img: true
+disable_top_img: false
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img:
@@ -147,7 +147,7 @@ index_top_img_height:
 
 # The subtitle on homepage
 subtitle:
-  enable: false
+  enable: true
   # Typewriter Effect
   effect: true
   # Customize typed.js
@@ -181,7 +181,7 @@ index_layout: 3
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
+  method: 2
   # If you set method to 2 or 3, the length need to config
   length: 500
 
@@ -285,10 +285,10 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/MegumiIKato
   card_announcement:
     enable: true
-    content: This is my Blog
+    content: 不定时更新ACGN杂谈与技术分享
   card_recent_post:
     enable: true
     # If set 0 will show all
@@ -431,9 +431,9 @@ wordcount:
 
 # Busuanzi count for PV / UV in site
 busuanzi:
-  site_uv: true
-  site_pv: true
-  page_pv: true
+  site_uv: false
+  site_pv: false
+  page_pv: false
 
 # --------------------------------------
 # Math
@@ -1029,6 +1029,8 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4890180_0s7ccmwte7gs.css">
+    - <link rel="stylesheet" href="/css/custom.css">
   bottom:
     # - <script src="xxxx"></script>
 
